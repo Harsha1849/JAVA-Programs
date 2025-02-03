@@ -3,7 +3,8 @@ class Car {
     String brand;
     int speed;
 
-    void display() {
+    void display() 
+    {
         System.out.println("Brand: " + brand + ", Speed: " + speed);
     }
 
@@ -14,3 +15,4 @@ class Car {
         myCar.display();
     }
 }
+   
