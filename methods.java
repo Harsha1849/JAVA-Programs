@@ -1,13 +1,12 @@
 //2 methods static and instance
 
-import java.io.*;
 class Calculator{
     //instance
     int add(int a, int b){
         return a+b;
     }
-    //static
-    static int multiply(int a, int b){
+    
+    int multiply(int a, int b){
         return a*b;
     }
 

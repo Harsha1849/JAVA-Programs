@@ -1,5 +1,4 @@
 //java program to perform arithmetic operations with class Arithmetic and methods void add(), void subtract(int a, int b), int multiply(), int divide(int a, int b)
-import java.io.*;
 class Arithmetic
 {
     void add(int a, int b) {

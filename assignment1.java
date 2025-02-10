@@ -18,7 +18,7 @@ class Student {
     }
 }
 
-public class SchoolManagement {
+public class assignment1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

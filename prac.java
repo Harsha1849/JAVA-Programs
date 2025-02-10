@@ -1,5 +1,3 @@
-import java.io.*;
-
 class Person{
     String name;
     int age;

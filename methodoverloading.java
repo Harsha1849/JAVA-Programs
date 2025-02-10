@@ -1,4 +1,3 @@
-import java.io.*;
 class AreaCalculator{
     int calculateArea(int a, int b){
         return a*b;

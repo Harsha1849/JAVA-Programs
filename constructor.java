@@ -1,4 +1,3 @@
-import java.io.*;
 class Student {
     String name;
 

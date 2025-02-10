@@ -1,4 +1,4 @@
-public class SumMethods {
+public class assignment2 {
 
     void sumWithoutReturnWithoutArguments() {
         int a = 10, b = 20;
@@ -21,7 +21,7 @@ public class SumMethods {
     }
 
     public static void main(String[] args) {
-        SumMethods obj = new SumMethods();
+        assignment2 obj = new assignment2();
 
         
         obj.sumWithoutReturnWithoutArguments();
