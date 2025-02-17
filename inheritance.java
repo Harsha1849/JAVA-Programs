@@ -1,24 +1,24 @@
 class A {
-    A() { 
+    A() {
         System.out.println("Class A with constructor");
     }
 
-    void show() { 
+    void show() {
         System.out.println("Class A with method");
     }
 }
 
 class B extends A {
-    B() { 
+    B() {
         System.out.println("Class B with constructor");
     }
 
-    void view() { 
+    void view() {
         System.out.println("Class B with method");
     }
 }
 
-class inheritance {  
+class inheritance {
     public static void main(String[] args) {
         A obj1 = new A();
         obj1.show();
@@ -27,3 +27,4 @@ class inheritance {
         obj2.view();
     }
 }
+
