@@ -1,9 +1,9 @@
 class employee{
-    int salary = 50000;
+    int salary = 70000;
 }
 
 class Engineer extends employee{
-    int increment=10000;
+    int increment=20000;
 }
 
 class inherit{
