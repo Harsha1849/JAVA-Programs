@@ -25,7 +25,7 @@ class LibraryItem {
 
     void LibraryItem1() {
         System.out.println("Title = " + title);
-        System.out.println("Author = " + author);
+        System.out.println("Writer = " + author);
         System.out.println("ItemID = " + itemID);
     }
 }
