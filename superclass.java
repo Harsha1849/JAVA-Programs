@@ -12,7 +12,7 @@ class A{
         System.out.println("Constructor with parent class");
     }
 }
-
+                                                                                                                                                                        
 class B extends A{
     int a=20;
     
