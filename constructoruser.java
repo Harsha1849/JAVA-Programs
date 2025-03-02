@@ -22,6 +22,7 @@ class constructoruser
 {
     public static void main(String args[])
     { 
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a name");
         String str = input.nextLine();
