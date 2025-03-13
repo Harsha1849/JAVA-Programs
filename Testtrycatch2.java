@@ -11,7 +11,7 @@ public class Testtrycatch2
         System.out.println(e);
     }
     {
-        System.out.println("rest of the code");
+        System.out.println("rest of code");
     }
     }
 }
