@@ -54,3 +54,23 @@ class MathOps{
         System.out.println("Sum using double: "+ma.add(5,8));
     }
 }
+
+//Constructor
+
+class Con{
+    String name;
+
+    Con(String n){
+        name=n;
+    }
+
+    void display()
+    {
+        System.out.println("Student Name: " +name);
+    }
+
+    public static void main(String args[]){
+        Con c= new Con("alice");
+        c.display();
+    }
+}
