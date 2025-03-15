@@ -36,3 +36,21 @@ class Meth{
         System.out.println("Product = "+ Meth.multiply(4, 5));
     }
 }
+
+//Method Overloading
+
+class MathOps{
+    int add(int a, int b){
+        return a+b;
+    }
+
+    double add(double a, double b){
+        return a+b;
+    }
+
+    public static void main(String[]args){
+        MathOps ma=new MathOps();
+        System.out.println("Sum using integer: "+ma.add(5, 8));
+        System.out.println("Sum using double: "+ma.add(5,8));
+    }
+}
