@@ -77,20 +77,44 @@
 
 //inheritance
 
-class Employee
-{
-    int Salary=60000;
+// class Employee
+// {
+//     int Salary=60000;
+// }
+
+// class Employer extends Employee
+// {
+//     int increment=20000;
+// }
+
+// class prac
+// {
+//     public static void main(String[] args) {
+//         Employer e1=new Employer();
+//         System.out.println("Salary: "+e1.Salary+ " Benefits: "+e1.increment);
+//     }
+// }
+
+//inheritance using super keyword
+
+class Parent{
+    Parent()
+    {
+        System.out.println("Parent class");
+    }
 }
 
-class Employer extends Employee
-{
-    int increment=20000;
+class Child extends Parent{
+    Child()
+    {
+        super();
+        System.out.println("Child class");
+    }
 }
 
-class prac
-{
-    public static void main(String[] args) {
-        Employer e1=new Employer();
-        System.out.println("Salary: "+e1.Salary+ " Benefits: "+e1.increment);
+public class prac{
+    public static void main(String[]args)
+    {
+        Child ch=new Child();
     }
 }
