@@ -97,24 +97,48 @@
 
 //inheritance using super keyword
 
+// class Parent{
+//     Parent()
+//     {
+//         System.out.println("Parent class");
+//     }
+// }
+
+// class Child extends Parent{
+//     Child()
+//     {
+//         super();
+//         System.out.println("Child class");
+//     }
+// }
+
+// public class prac{
+//     public static void main(String[]args)
+//     {
+//         Child ch=new Child();
+//     }
+// }
+
+//method overriding
+
 class Parent{
-    Parent()
+    void show()
     {
-        System.out.println("Parent class");
+        System.out.println("Parent show class");
     }
 }
-
 class Child extends Parent{
-    Child()
+
+    void show()
     {
-        super();
-        System.out.println("Child class");
+        System.out.println("Child show class");
     }
 }
-
-public class prac{
+class prac
+{
     public static void main(String[]args)
     {
         Child ch=new Child();
+        ch.show();
     }
 }
