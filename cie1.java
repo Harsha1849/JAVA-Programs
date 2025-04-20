@@ -1,5 +1,5 @@
 //java program to perform arithmetic operations with class Arithmetic and methods void add(), void subtract(int a, int b), int multiply(), int divide(int a, int b)
-class Arithmetic
+class cie1
 {
     void add(int a, int b) {
         System.out.println("Sum: " + (a + b));
@@ -19,7 +19,7 @@ class Arithmetic
 
     public static void main(String[]args)
     {
-        Arithmetic art= new Arithmetic();
+        cie1 art= new cie1();
         art.add(2,2);
         art.subtract(4,2);
         System.out.println("Product: "+art.multiply(5,5));

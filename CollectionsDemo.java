@@ -1,10 +1,8 @@
 import java.util.*;
 
 public class CollectionsDemo {
-
     public static void main(String[] args) {
 
-        // Step 2: List - ArrayList
         System.out.println("=== List Implementation (ArrayList) ===");
         List<String> fruits = new ArrayList<>();
         fruits.add("Apple");
@@ -13,15 +11,14 @@ public class CollectionsDemo {
         fruits.add("Grapes");
         System.out.println("Original List: " + fruits);
 
-        fruits.set(1, "Orange");  // Update
+        fruits.set(1, "Orange");  
         System.out.println("After Update: " + fruits);
 
         fruits.remove("Mango");  // Remove
         System.out.println("After Removal: " + fruits);
 
-        System.out.println("Element at index 0: " + fruits.get(0));  // Retrieve
+        System.out.println("Element at index 0: " + fruits.get(0));  
 
-        // Step 3: Set - HashSet
         System.out.println("\n=== Set Implementation (HashSet) ===");
         Set<String> names = new HashSet<>();
         names.add("Alice");
@@ -30,7 +27,6 @@ public class CollectionsDemo {
         names.add("Alice"); // Duplicate
         System.out.println("HashSet Elements (No Duplicates): " + names);
 
-        // Step 4: Queue - PriorityQueue
         System.out.println("\n=== Queue Implementation (PriorityQueue) ===");
         Queue<Integer> numbers = new PriorityQueue<>();
         numbers.offer(40);
@@ -39,10 +35,9 @@ public class CollectionsDemo {
         numbers.offer(20);
         System.out.println("Queue (PriorityQueue): " + numbers);
 
-        System.out.println("Dequeue Element: " + numbers.poll()); // Remove head
+        System.out.println("Dequeue Element: " + numbers.poll());
         System.out.println("Queue After Dequeue: " + numbers);
 
-        // Step 5: Map - HashMap
         System.out.println("\n=== Map Implementation (HashMap) ===");
         Map<Integer, String> students = new HashMap<>();
         students.put(101, "John");
